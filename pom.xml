@@ -47,4 +47,15 @@
 			<artifactId>spring-cloud-config-server</artifactId>
 		</dependency>
 	</dependencies>
+
+	<distributionManagement>
+		<repository>
+			<id>invivoo</id>
+			<url>http://nexus.invivoo.cspinformatique.com/repository/invivoo-release/</url>
+		</repository>
+		<snapshotRepository>
+			<id>invivoo</id>
+			<url>http://nexus.invivoo.cspinformatique.com/repository/invivoo-snapshot/</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
